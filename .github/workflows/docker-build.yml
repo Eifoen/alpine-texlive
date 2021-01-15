@@ -28,6 +28,6 @@ jobs:
         with:
           context: .
           file: ./Dockerfile
-          platforms: linux/amd64 #linux/arm64, linux/arm/v6, linux/arm/v7
-          tags: "latest, ${{ env.GITHUB_SHA }}"
+          platforms: linux/amd64, linux/arm64, linux/arm/v6, linux/arm/v7
+          tags: "ghcr.io/eifoen/alpine-texlive:latest, ghcr.io/eifoen/alpine-texlive:${{ env.GITHUB_SHA }}"
           push: true
