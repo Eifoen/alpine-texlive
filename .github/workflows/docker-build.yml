@@ -7,6 +7,7 @@ on:
     - cron: '0 0 * * 0'
 jobs:
   push_to_registry:
+    environment: docker_build
     name: Push Docker image to GitHub Packages
     runs-on: ubuntu-latest
     steps:
