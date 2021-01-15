@@ -25,4 +25,6 @@ jobs:
           username: ${{ github.repository_owner }}
           password: ${{ secrets.CR_PAT }}
           platforms: linux/amd64, linux/arm64, linux/armv7
-          tags: "latest, ${{ env.GITHUB_SHA }}"
+          tags: |
+            ${{ env.GITHUB_REPOSITORY }}:latest
+            ${{ env.GITHUB_REPOSITORY }}:${{ env.GITHUB_SHA }}
