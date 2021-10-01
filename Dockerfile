@@ -7,7 +7,6 @@ font-adobe-utopia-type1 \
 font-adobe-utopia-75dpi \
 font-adobe-utopia-100dpi \
 ttf-opensans font-croscore \
-ttf-ubuntu-font-family \
 ttf-font-awesome \
 terminus-font \
 ttf-dejavu \
