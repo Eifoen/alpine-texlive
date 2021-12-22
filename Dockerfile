@@ -21,4 +21,5 @@ ttf-cantarell \
 ttf-liberation \
 ttf-inconsolata \
 font-cursor-misc \
-font-ibm-type1
+font-ibm-type1 \
+ghostscript
